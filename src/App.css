@@ -7,8 +7,14 @@ body{
   justify-content: center;
   align-items: center;
 }
+ul{
+  padding: 0;
+}
 li{
-  text-decoration: none;
+  list-style-type:  none;
+}
+.line{
+  text-decoration: line-through;
 }
 .container{
   width: 500px;
@@ -16,4 +22,17 @@ li{
   background-color: #262626;
   color: white;
 }
-
+.todoitem{
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.todoitem input{
+  margin: 0 10px;
+  height: 20px;
+  width: 20px;
+}
+.todoitem .delete-bar{
+  margin: 0 10px;
+}
